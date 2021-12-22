@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="En Coisa Boa ofrecemos velas artesanales de soja, esencias aromáticas, vinagre concentrado y bicarbonato de sodio para el hogar.">
+        <meta name="keywords" content="coisa boa, velas de soja, esencias aromáticas, productos de limpieza, vinagre concentrado, bicarbonato de sodio, medio ambiente, natural, green, ecológico">
+    <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap para menu hamburguesa mobile-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Mi CSS con SASS-->
+        <link rel="stylesheet" href="css\miCSS.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Velas aromas y limpieza CoisaBoa</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="logos\logo.png" alt="Coisa Boa"></a>
+            </div>
+            <div class="header__eslogan">
+                <p class="eslogan">TRANSFORMA TU HOGAR</p>
+            </div>
+            <div class="header__menu"><!--Comienzo de menú salvo móvil-->
+                <nav class="menu__nav">
+                    <ul class= "menu_list">
+                        <li class= "menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                        <li class= "menu__item"><a href="productos.html" class="menu__link menu__link--elegido">Productos</a></li>
+                        <li class= "menu__item"><a href="uso.html" class="menu__link">Cómo lo uso</a></li>
+                        <li class= "menu__item"><a href="comprar.html" class="menu__link">Cómo compro</a></li>
+                        <li class= "menu__item"><a href="nosotras.html" class="menu__link">Nosotras</a></li>
+                    </ul>
+                </nav>
+            </div><!--Fin de menú salvo móvil-->
+        </section>
+        <section><!--Comiezo de menú móvil-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="logos\logo.png" height="100px"></a><!--LINK CON EL LOGO-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> <!--BOTÓN DEL MENÚ HAMBURGUESA-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--LISTA DESPLEGADA POR EL BUTTON-TOGGLER-->
+                    <ul class="navbar-nav mx-auto nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="uso.html">CÓMO LO USO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comprar.html">CÓMO LO COMPRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotras.html">NOSOTRAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section><!--Fin de menú móvil-->
+    </header>
+    <main>
+        <section class="productos"><!--Comienzo sección con artículos de texto-->
+        <article class="velas"><!--Comienzo contenedor 1/3-->
+            <ul class="velas__list"><!--Comienzo contenedor título-->
+                <li class="velas__item"><h1>Velas</h1></li>
+            </ul><!--Fin contenedor título-->
+            <ul class="velas__list">
+                <li class="velas__item"><p>Velas de soja con diferentes aromas.</p></li>
+                <li class="velas__item"><p>Las velas vienen en frascos de vidrio reutilizado proveniente de botellas de vino que fueron cortadas y limada.</p></li>
+                <li class="velas__item"><p>Los coronamos con una tapa de corcho artesanal.</p></li>
+                <li class="velas__item"><p>A fin de no generar ningun residuo luego de comprar la primer vela podemos reutilizar el mismo frasco.</p></li>
+                <li class="velas__item"><p>Los aromas de las velas son a eleccion y podpes verlos en la sección "Aromas".</p></li>
+            </ul>
+        </article>
+        <article class="aromas"><!--Comienzo contenedor 2/3-->
+            <ul class="aromas__list"><!--Comienzo contenedor título-->
+                <li class="aromas__item"><h1>Aromas</h1></li>
+            </ul><!--Fin contenedor título-->
+            <ul class="aromas__list">
+                <li class="aromas__item"><p>Tus aromas de velas favoritos, ahora, para usar en lo que desees.</p></li>
+                <li class="aromas__item"><p>Vienen en frasquitos de 15 cm³</p></li>
+            </ul>
+            <ul class="aromas__list">
+                <ol class="aromas__item aromas__item--ol"><p>Cítrico</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Rosa y jazmín</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Cookies de coco y vainilla</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Lavanda</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Eucaliptos</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Jazmín</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Café y caramelo</p></ol>
+                <ol class="aromas__item aromas__item--ol"><p>Neroli</p></ol>
+            </ul>
+        </article><!--Fin contenedor 2/3-->
+        <article class="limpieza"><!--Comienzo contenedor 3/3-->
+            <ul class="limpieza__list"><!--Comienzo contenedor título-->
+                <li class="limpieza__item"><h1>Productos de limpieza</h1></li>
+            </ul><!--Fin contenedor título-->
+            <ul  class="limpieza__list">
+                <li class="limpieza__item"><p>Vint llegó a Rosario, para que puedas limpiar siendo amigable con el Medio Ambiente y reduciendo la cantidad de productos.</p></li>
+                <li class="limpieza__item"><p>La limpieza del hogar para todos los usos se basa en volver a las raices, utilizar vinagre y bicarbonato de sódio.</p></li>
+                <li class="limpieza__item"><p>Sensillamente con estos dos productos en diferentes proporciones y formas de aplicado podemos dejar de lado aquellos productos químicos que dañan el Medio Ambiente y nuestra salud.</p></li>
+            </ul>
+        </article><!--Fin contenedor 3/3-->
+        </section><!--Fin sección con artículos de texto-->
+        <section class="ficha"><!--Comienzo sección de galería de imágenes-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor primera imágen-->
+            <div class="ficha__titular">
+                <h4>Nuestras velas</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>Son una gran compañía, sea en soledad o con alguien.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/velasCuatro.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor primera imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor segunda imágen-->
+            <div class="ficha__titular">
+                <h4>Nuestros recipientes</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>Cortamos artesanalmente las botellas.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/frascosCortados.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor segunda imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor tercera imágen-->
+            <div class="ficha__titular">
+                <h4>Nuestras tapas</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>Hechas con corcho, las cortamos a mano.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/tapas.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor tercera imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor cuarta imágen-->
+            <div class="ficha__titular">
+                <h4>Nuestra paciencia</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>El proceso es metódico y lleva tiempo.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/velasProceso.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor cuarta imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor quinta imágen-->
+            <div class="ficha__titular">
+                <h4>Los aromas</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>Las esencias vienen en estas pequeñas botellitas.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/esencias.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor quinta imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor sexta imágen-->
+            <div class="ficha__titular">
+                <h4>Growler</h>
+            </div>
+            <div class="ficha__copete">
+                <p>EL vinagre en envase de vidrio para poder reutilizarlo.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/esenciasVinagre.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor sexta imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor séptima imágen-->
+            <div class="ficha__titular">
+                <h4>Aspersor</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>Es un muy buen aliado para limpiar con vinagre.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/velasTres.jpeg" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor séptima imágen-->
+        <article class="ficha__contenedor"><!--Comienzo contenedor octava imágen-->
+            <div class="ficha__titular">
+                <h4>Escribinos</h4>
+            </div>
+            <div class="ficha__copete">
+                <p>No dudes en contactarnos y te asesoramos.</p>
+            </div>
+            <div class="ficha__imagen">
+                <img src="imagenes/velasVarias.png" alt="esencia aroma cookies">
+            </div>
+        </article><!--Fin contenedor octava imágen-->
+        </section><!--Fin sección de galería de imágenes-->
+    </main>
+    <footer class="footer"><!--Comienzo Footer-->
+        <div class="footer__uno"><!--Comienzo div 1/3-->
+            <ul>
+                <li><p class="footer__texto">Velas de soja</p></li>
+                <li><p class="footer__texto">VINT en Rosario - Tips de limpieza</p></li>
+                <li><p class="footer__texto">Amables con el medioambiente</p></li>
+            </ul>
+        </div><!--Fin div 1/3-->
+        <div Class="footer__dos"><!--Comienzo div 2/3-->
+            <p class="footer__texto">Seguinos y escribinos</p>
+            <a href="https://www.instagram.com/coisaboatienda/" target="_blanck"><img src="logos\logoIGG.png" alt="Instagram"></a>
+            <a href="https://web.whatsapp.com/send?phone=+543413055296" target="_blanck"><img src="logos\logoWAG.png" alt="3413055296"></a>
+            <a href="mailto:coisaboatienda@gmail.com" target="_blanck"><img src="logos\logoMG.png"></a>
+        </div><!--Fin div 2/3-->
+        <div class="footer__tres"><!--Comienzo div 3/3-->
+            <p class="footer__texto"><strong>{NLM}</strong><small><strong> Developer</strong></small></p>
+            <p class="footer__texto">Todos los derechos reservados</p>
+        </div><!--Fin div 3/3-->
+    </footer><!--Fin footer-->
+    <!--Bootstrap para Carrusel-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap para menuMobile-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

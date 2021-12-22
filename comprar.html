@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="En Coisa Boa podés comprar velas de soja aromáticas, y productos de limpieza para el hogar libres de tóxicos.">
+        <meta name="keywords" content="coisa boa, velas de soja, esencias aromáticas, productos de limpieza, vinagre concentrado, bicarbonato de sodio, ecológico, compra, venta">
+    <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap para menu hamburguesa mobile-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Mi CSS con SASS-->
+        <link rel="stylesheet" href="css\miCSS.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Compras CoisaBoa</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="logos\logo.png" alt="Coisa Boa"></a>
+            </div>
+            <div class="header__eslogan">
+                <p class="eslogan">TRANSFORMA TU HOGAR</p>
+            </div>
+            <div class="header__menu"><!--Comeinzo de menú salvo móvil-->
+                <nav class="menu__nav">
+                    <ul class= "menu_list">
+                        <li class= "menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                        <li class= "menu__item"><a href="productos.html" class="menu__link">Productos</a></li>
+                        <li class= "menu__item"><a href="uso.html" class="menu__link">Cómo lo uso</a></li>
+                        <li class= "menu__item"><a href="comprar.html" class="menu__link menu__link--elegido">Cómo compro</a></li>
+                        <li class= "menu__item"><a href="nosotras.html" class="menu__link">Nosotras</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section> <!--Comeinzo de menú móvil-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="logos\logo.png" height="100px"></a><!--LINK CON EL LOGO-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> <!--BOTÓN DEL MENÚ HAMBURGUESA-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--LISTA DESPLEGADA POR EL BUTTON-TOGGLER-->
+                    <ul class="navbar-nav mx-auto nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="uso.html">CÓMO LO USO</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="comprar.html">CÓMO LO COMPRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotras.html">NOSOTRAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="contenedores">
+            <article class="contenedores__a">
+                <div>
+                    <img src="logos/ver.png" alt="viendo">
+                    <p>Mirá nuestra web o redes</p>
+                </div>
+                <div>
+                    <img src="logos/productos.png" alt="productos">
+                    <p>Elegí el producto</p>
+                </div>
+                <div>
+                    <img src="logos/mensajes.png" alt="mensajes">
+                    <p>Escribinos</p>
+                </div>
+                <div>
+                    <img src="logos/pago.png" alt="medio de pago">
+                    <p>Acordamos el pago y envío</p>
+                </div>
+                <div class="contenedores__e">
+                    <img src="logos/entrega.png" alt="entrega">
+                    <p>Te lo entregamos</p>
+                </div>
+                </article>
+            <div  class="contenedores__b">
+                <h2>Si te interesa comprar...</h2>
+                <ul>
+                    <li><p>...escribinos por Whats App o Instagram,</p></li>
+                    <li><p>evacuá todas tus dudas,</p></li>
+                    <li><p>consultanos por la disponibilidad del producto,</p></li>
+                    <li><p>comentanos qué medio de pago preferís,</p></li>
+                    <li><p>te indicaremos día de envío.</p></li>
+                </ul>
+            </div>
+            <div  class="contenedores__c">
+                <h2>Medios de pago.</h2>
+                <ul>
+                    <li><p>Trasferencia bancaria.</p></li>
+                    <li><p>Depósito bancario.</p></li>
+                    <li><p>MercadoPago.</p></li>
+                    <li><p>Efectivo en puerta.</p></li>
+                </ul>
+            </div>
+            <div class="contenedores__d">
+                <div>
+                    <img src="logos\isotipo.png" alt="pluma">
+                </div>
+            <p>Escribinos por Instagram</p>
+            <a href="https://www.instagram.com/coisaboatienda/" target="_blanck"><img src="logos\logoIGG.png" alt="Instagram"> </a>
+            <p>o por</p>
+            <a href="https://web.whatsapp.com/send?phone=+(0054)3413055296" target="_blanck"><img src="logos\logoWAG.png" alt="3413055296"></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"><!--Comienzo Footer-->
+        <div class="footer__uno"><!--Comienzo div 1/3-->
+            <ul>
+                <li><p class="footer__texto">Velas de soja</p></li>
+                <li><p class="footer__texto">VINT en Rosario - Tips de limpieza</p></li>
+                <li><p class="footer__texto">Amables con el medioambiente</p></li>
+            </ul>
+        </div><!--Fin div 1/3-->
+        <div Class="footer__dos"><!--Comienzo div 2/3-->
+            <p class="footer__texto">Seguinos y escribinos</p>
+            <a href="https://www.instagram.com/coisaboatienda/" target="_blanck"><img src="logos\logoIGG.png" alt="Instagram"></a>
+            <a href="https://web.whatsapp.com/send?phone=+543413055296" target="_blanck"><img src="logos\logoWAG.png" alt="3413055296"></a>
+            <a href="mailto:coisaboatienda@gmail.com" target="_blanck"><img src="logos\logoMG.png"></a>
+        </div><!--Fin div 2/3-->
+        <div class="footer__tres"><!--Comienzo div 3/3-->
+            <p class="footer__texto"><strong>{NLM}</strong><small><strong> Developer</strong></small></p>
+            <p class="footer__texto">Todos los derechos reservados</p>
+        </div><!--Fin div 3/3-->
+    </footer><!--Fin footer-->
+    <!--Bootstrap para Carrusel-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap para menuMobile-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
